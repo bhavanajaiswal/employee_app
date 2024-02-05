@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Services App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Employee Services</h1>
+        <img src="image/emplyee_service_logo.webp" alt="App Logo">
+    </header>
+
+    <section style="display: flex; flex-direction: column; align-items: center; padding: 20px;">
+
+        <h2 style="font-family: 'cursive'; color: #4CAF50; text-transform: uppercase; letter-spacing: 2px; margin-top: 20px;">Food Ordering</h2>
+
+        <!-- Big Centered Card -->
+        <div class="big-card">
+            <h2>Big Card</h2>
+            <p>Description of the big card goes here.</p>
+            
+            <!-- Small Cards Row -->
+            <div class="small-cards-row">
+                <!-- Add more small cards as needed -->
+                <a href="#" class="small-card">Option 1</a>
+                <a href="#" class="small-card">Option 2</a>
+                <a href="#" class="small-card">Option 3</a>
+                <a href="#" class="small-card">Option 4</a>
+                <a href="#" class="small-card">Option 5</a>
+                <a href="#" class="small-card">Option 6</a>
+                <a href="#" class="small-card">Option 7</a>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .big-card {
+            width: 90%; /* Adjust the width as per your preference */
+            max-width: 1200px; /* Adjust the max-width as per your preference */
+            height: 400px; /* Adjust the height as per your preference */
+            background-color: #fff;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        .big-card:hover {
+            transform: scale(1.05);
+        }
+
+        .small-cards-row {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .small-card {
+            width: calc(14% - 10px);
+            max-width: 100px;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .small-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</body>
+</html>
